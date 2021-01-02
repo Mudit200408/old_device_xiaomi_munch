@@ -429,6 +429,7 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayAOSP \
     FrameworkResOverlayMunch \
     NfcOverlayMunch \
+    SettingsLibOverlayVayu \
     SettingsOverlayMunch \
     SettingsProviderOverlayMunchCN \
     SettingsProviderOverlayMunchGLOBAL \
@@ -439,6 +440,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayMunchGLOBAL \
     WifiOverlayMunchINDIA
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+    
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
