@@ -67,7 +67,7 @@
         <activity
             android:name=".refreshrate.RefreshActivity"
             android:label="@string/refresh_title"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -88,7 +88,8 @@
 
         <activity
             android:name=".speaker.ClearSpeakerActivity"
-            android:label="@string/clear_speaker_title">
+            android:label="@string/clear_speaker_title"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
