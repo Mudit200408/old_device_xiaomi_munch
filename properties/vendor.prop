@@ -185,6 +185,10 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Display
 debug.sf.frame_rate_multiple_threshold=60
 persist.sys.sf.color_mode=9
