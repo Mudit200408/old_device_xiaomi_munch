@@ -58,5 +58,5 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:scaleType="centerInside"
-        android:src="@drawable/ic_thermal_default" />
+        android:src="@drawable/ic_refresh_default" />
 </LinearLayout>
