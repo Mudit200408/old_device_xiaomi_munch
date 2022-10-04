@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Cấu hình Thermal</string>
+    <string name="thermal_summary">Điều chỉnh cấu hình nhiệt độ riêng cho từng ứng dụng để đạt hiệu suất tối ưu</string>
+    <string name="thermal_default">Mặc định</string>
+    <string name="thermal_benchmark">Bài kiểm tra</string>
+    <string name="thermal_browser">Trình duyệt</string>
+    <string name="thermal_camera">Máy ảnh</string>
+    <string name="thermal_dialer">Ứng dụng điện thoại</string>
+    <string name="thermal_gaming">Chơi game</string>
+    <string name="thermal_navigation">Điều hướng</string>
+    <string name="thermal_streaming">Phát trực tuyến</string>
+    <string name="thermal_video">Video</string>
+
+    <!-- Refresh Rate Settings -->
+    <string name="refresh_rate_tile_title">Tốc độ làm mới</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Tốc độ làm mới cho từng ứng dụng</string>
+    <string name="refresh_summary">Đặt tốc độ làm mới tối đa cho một ứng dụng cụ thể</string>
+    <string name="refresh_default">Mặc định</string>
+    <string name="refresh_standard">60Hz</string>    
+    <string name="refresh_extreme">120Hz</string>    
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Làm sạch loa</string>
+    <string name="clear_speaker_summary">Phát một đoạn âm thanh dài 30 giây để làm sạch loa</string>
+    <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa của mình bị bụi bám nhẹ. Đặt âm lượng phương tiện ở mức tối đa.\n\nNếu loa bị chặn nhiều, hãy chạy tính năng này 2-5 lần trong khi lắc thiết bị của bạn với loa hướng xuống dưới.\n\nChú ý: Chắc chắn rằng không có tai nghe nào được kết nối.</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Chống nhấp nháy</string>
+    <string name="dc_dimming_enable_summary">Giảm mỏi mắt trong điều kiện ánh sáng yếu</string>
+    <string name="dc_dimming_enable_summary_not_supported">Chức năng hiện không được hỗ trợ bởi kernel</string>
+
+    <!-- HBM settings -->
+    <string name="hbm_fragment_title">Chế độ sáng cao</string>
+    <string name="hbm_fragment_summary">Cài đặt cho chế độ sáng cao</string>
+    <string name="hbm_mode_title">Chế độ sáng cao</string>
+    <string name="hbm_mode_summary">Bật độ sáng tối đa</string>
+    <string name="auto_hbm_title">Chế độ sáng cao tự động</string>
+    <string name="auto_hbm_summary">Bật độ sáng tối đa dựa trên điều kiện ánh sáng mặt trời</string>
+    <string name="auto_hbm_threshold_title"></string>
+    <string name="auto_hbm_threshold_summary">ngưỡng (lux)</string>
+    <string name="hbm_disable_time_title"></string>
+    <string name="hbm_disable_time_summary">Thời gian vô hiệu hóa (giây)</string>
+    <string name="hbm_mode_warning">Sử dụng Chế độ sáng cao trong thời gian dài có thể làm hỏng màn hình của bạn</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Điều khiển cảm ứng</string>
+    <string name="touch_game_mode_title">Bật</string>
+    <string name="touch_response_title">Độ nhạy</string>
+    <string name="touch_response_summary">Điều khiển độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_title">Độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_summary">Điều khiển độ nhạy cảm ứng cho các lần chạm lặp lại</string>
+    <string name="touch_resistant_title">Khu vực chống chạm</string>
+    <string name="touch_resistant_summary">Giảm độ nhạy cảm ứng gần các cạnh để tránh kích hoạt điều khiển cảm ứng</string>
+</resources>
