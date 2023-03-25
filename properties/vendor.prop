@@ -258,6 +258,9 @@ persist.vendor.hvdcp_opti.disallowed=1
 # Keystore
 ro.hardware.keystore_desede=true
 
+# HWUI
+ro.hwui.render_ahead=20
+
 # Media
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
