@@ -7,6 +7,9 @@
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
+
 # Target VNDK Fallback version
 PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
 
