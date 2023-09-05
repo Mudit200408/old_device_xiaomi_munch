@@ -73,5 +73,8 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true 
 
+#LTE CA
+persist.sys.radio.force_lte_ca=true
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
