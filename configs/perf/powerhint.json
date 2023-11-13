@@ -160,8 +160,10 @@
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
         "30",
-        "10"
+        "10",
+        "0"
       ],
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -746,6 +748,12 @@
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 0,
       "Value": "61"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TASchedtuneBoost",
+      "Duration": 0,
+      "Value": "0"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
