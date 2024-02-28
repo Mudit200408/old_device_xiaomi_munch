@@ -64,6 +64,9 @@ function blob_fixup() {
         vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service | vendor/lib*/libstagefrightdolby.so | vendor/lib*/libstagefright_soft_*.so | vendor/lib*/libdlbdsservice.so)
             "${PATCHELF}" --add-needed "libstagefright_foundation-v33-dolby.so" "${2}"
             ;;
+        vendor/lib64/libril-qc-hal-qmi.so)
+            sed -i 's|ro.product.vendor.device|ro.vendor.radio.midevice|g' "${2}"
+            ;;
     esac
 }
 
