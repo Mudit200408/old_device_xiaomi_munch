@@ -14,6 +14,9 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := cherish_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi

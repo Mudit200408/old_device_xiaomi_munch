@@ -7,17 +7,11 @@ It is also known as POCO F4 (globally) and Redmi K40S (China).
 ## Dependency
 ### Device tree
 ```
-git clone https://github.com/hdzungx/device_xiaomi_munch device/xiaomi/munch
-```
-```
-git clone https://github.com/hdzungx/device_xiaomi_sm8250-common device/xiaomi/sm8250-common
+git clone https://github.com/hdzungx/android_device_xiaomi_munch device/xiaomi/munch
 ```
 ### Vendor tree
 ```
-git clone https://gitea.com/hdzungx/vendor_xiaomi_munch vendor/xiaomi/munch
-```
-```
-git clone https://gitea.com/hdzungx/vendor_xiaomi_sm8250-common vendor/xiaomi/sm8250-common
+git clone https://gitea.com/hdzungx/android_vendor_xiaomi_munch vendor/xiaomi/munch
 ```
 ### MiuiCamera
 ```
