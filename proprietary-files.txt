@@ -667,11 +667,11 @@ vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 
 # Dolby App (OnePlus)
-system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
-system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
-system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
-system_ext/priv-app/DaxUI/DaxUI.apk|89f3a6b9eda78e3d524d02c6c82954e0
-system_ext/priv-app/daxService/daxService.apk|bcab166e72d466b563955df5c6b7968d
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|43c610f41061f49959ce07b26c60427b8767e535
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|7690774632fe32269657fc1a2a0c941c7cd83f3d
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|f647356bd3a4bb4174e873e4544c2921d51fd4d2
+system_ext/priv-app/DaxUI/DaxUI.apk|f2123124ddef928c7c490e2a83b0af5466a0df7e
+system_ext/priv-app/daxService/daxService.apk|0d1f71d0a58d909c05adacf5239503588b9d39ea
 
 # Dolby Miui
 system/lib/vendor.dolby.hardware.dms@2.0.so
