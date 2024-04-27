@@ -96,6 +96,18 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
+system/lib/libldacBT_enc.so
+system/lib/libldacBT_abr.so
+system/lib/liblhdcv5BT_enc.so
+system/lib/liblhdc.so
+system/lib/liblhdcv5.so
+system/lib/liblhdcBT_enc.so
+system/lib64/libldacBT_enc.so
+system/lib64/libldacBT_abr.so
+system/lib64/liblhdcv5BT_enc.so
+system/lib64/liblhdc.so
+system/lib64/liblhdcv5.so
+system/lib64/liblhdcBT_enc.so
 
 # Bluetooth (A2DP)
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
