@@ -11,7 +11,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 
 # Target VNDK Fallback version
-PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
+PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33 34
 
 # Permissions
 PRODUCT_COPY_FILES += \
