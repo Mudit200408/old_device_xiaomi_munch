@@ -1,0 +1,26 @@
+[
+    {
+        "remote": "gitlab",
+        "repository": "Mudit200408/decommon-vendor-xiaomi-munch",
+        "target_path": "vendor/xiaomi/munch",
+        "branch": "14"
+    },
+    {
+        "remote": "gitea",
+        "repository": "hdzungx/android_vendor_xiaomi_miuicamera",
+        "target_path": "vendor/xiaomi/miuicamera",
+        "branch": "udc"
+    },
+    {
+        "remote": "github",
+        "repository": "LineageOS/android_hardware_xiaomi",
+        "target_path": "hardware/xiaomi",
+        "branch": "lineage-21"
+    },
+    {
+    	"remote": "github",
+        "repository": "Mudit200408/android_kernel_xiaomi_sm8250",
+        "target_path": "kernel/xiaomi/sm8250",
+        "branch": "14"
+    }
+]
