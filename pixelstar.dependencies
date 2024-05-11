@@ -22,5 +22,11 @@
         "repository": "Mudit200408/android_kernel_xiaomi_sm8250",
         "target_path": "kernel/xiaomi/sm8250",
         "branch": "14"
+    },
+    {
+    	"remote": "github",
+        "repository": "TheParasiteProject/packages_apps_KProfiles",
+        "target_path": "packages/apps/KProfiles",
+        "branch": "main"
     }
 ]
