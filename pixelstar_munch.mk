@@ -22,8 +22,8 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_BATTERY := false
 TARGET_FLATTEN_APEX := false
 MAINLINE_INCLUDE_VIRT_MODULE := false
-# TARGET_INCLUDE_CARRIER_SETTINGS := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_NOT_SUPPORTS_GOOGLE_BATTERY := true
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
